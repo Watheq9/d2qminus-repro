@@ -1,0 +1,9 @@
+*__pycache__/*
+*/__pycache__/*
+*/*/__pycache__/*
+data/runs/lsr
+data/runs/main
+data/runs/rerank
+cache
+archive
+wandb/*
