@@ -24,7 +24,7 @@ python experiments/score_generator.py \
 --log path_to_save_the_log
 ```
 
-We make the scores generated for MSMarcoMSMARCO-v1 passage and the experimented BEIR datasets publicly available on Hugginface [here](https://huggingface.co/datasets/Watheq/doc2query_scored_queries).
+We make the scores generated for MSMARCO-v1 passage and the experimented BEIR datasets publicly available on Hugginface [here](https://huggingface.co/datasets/Watheq/doc2query_scored_queries).
 
 ## 2. End-to-end Retrieval using Doc2Query-- (Top or Bottom)
 Having scored the queries, you can apply filtering. The following script will apply filtering, index the filtered dataframe, tune BM25 parameters, and then evaluate BM25 on four test collection of MS-MARCO. For example, if you want to experiment with top 10, 30, 50, 70, 90%, run the following command:
@@ -95,3 +95,16 @@ python experiments/filter.py --scored_file "path_to_the_scored_file.jsonl" \
                         --N 80 \
 ```
 
+
+## Citation
+
+If you used any piece of this repository, please consider citing our work :
+
+@inproceedings{mansour2024revisit,
+  title={Revisiting Document Expansion and Filtering for Effective First-Stage Retrieval},
+  author={Mansour, Watheq and Zhuang, Shengyao and Zhuang, Guido and Mackenzie, Joel},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2024},
+  publisher = {Association for Computing Machinery},
+  series = {SIGIR '24}
+}
