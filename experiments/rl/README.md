@@ -1,7 +1,8 @@
 # Reinforcement Learning Experiments
 
 ## 1. Train RL model
-First step is to train a Doc2Query model that optimizes the ELECTRA score directly using reinforcement learning. To log training details, you need to create an account on Wandb. Follow the instructions [here](https://docs.wandb.ai/quickstart) for creating the account and do the login. Then, you can run the following script:
+First step is to train a Doc2Query model that optimizes the ELECTRA score directly using reinforcement learning. We release our model after training on Huggingface [here](https://huggingface.co/Watheq/d2q_monoELECTRA_1400).
+To log training details, you need to create an account on Wandb. Follow the instructions [here](https://docs.wandb.ai/quickstart) for creating the account and do the login. Then, you can run the following script:
 ```
 python experiments/rl/trl_ppo_d2q.py
 ```

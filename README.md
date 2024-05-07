@@ -24,6 +24,7 @@ python experiments/score_generator.py \
 --log path_to_save_the_log
 ```
 
+We make the scores generated for MSMarcoMSMARCO-v1 passage and the experimented BEIR datasets publicly available on Hugginface [here](https://huggingface.co/datasets/Watheq/doc2query_scored_queries).
 
 ## 2. End-to-end Retrieval using Doc2Query-- (Top or Bottom)
 Having scored the queries, you can apply filtering. The following script will apply filtering, index the filtered dataframe, tune BM25 parameters, and then evaluate BM25 on four test collection of MS-MARCO. For example, if you want to experiment with top 10, 30, 50, 70, 90%, run the following command:
@@ -80,6 +81,7 @@ Please see the `experiments/lsr/` directory for more information.
 
 ## 6. Reranking Experiment
 Please see the `experiments/raranking/` directory for more information.
+
 
 
 ## Utility 
