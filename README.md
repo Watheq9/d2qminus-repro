@@ -100,6 +100,7 @@ python experiments/filter.py --scored_file "path_to_the_scored_file.jsonl" \
 
 If you used any piece of this repository, please consider citing our work :
 
+```
 @inproceedings{mansour2024revisit,
   title={Revisiting Document Expansion and Filtering for Effective First-Stage Retrieval},
   author={Mansour, Watheq and Zhuang, Shengyao and Zhuang, Guido and Mackenzie, Joel},
@@ -108,3 +109,4 @@ If you used any piece of this repository, please consider citing our work :
   publisher = {Association for Computing Machinery},
   series = {SIGIR '24}
 }
+```
